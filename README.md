@@ -18,7 +18,9 @@
 ![anasayfa giriş yok,](https://github.com/ogzhnylcn/BlogY-Website/assets/96052998/f01feec0-e8a7-4df7-a26f-e80e3d06e5bf)
 
 # İLETİŞİM
-[iletisim](https://github.com/ogzhnylcn/BlogY-Website/assets/96052998/1bb43414-0359-431e-97b3-f5fbb089b0f1)
+
+![iletisim](https://github.com/ogzhnylcn/BlogY-Website/assets/96052998/8a6e5246-cdbc-4227-b685-f7ee2ba89b4f)
+
 # BLOG YAZMA
 ![blogyaz](https://github.com/ogzhnylcn/BlogY-Website/assets/96052998/543b9346-428f-4f71-b138-2d3c884b01de)
 
