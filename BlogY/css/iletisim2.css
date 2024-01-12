@@ -1,0 +1,243 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+.body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.wallpaperscraft.com/image/single/panorama_city_lights_sky_125912_3840x2160.jpg");
+
+
+
+}
+
+.navbar {
+    background-color: #555555c9;
+    position: fixed;
+}
+
+
+.navbar a {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+
+
+
+}
+
+.logo {
+    width: 55x;
+    height: 40px;
+    margin-right: 6px;
+}
+
+.logo2 {
+    width: 155px;
+    height: auto;
+    position: absolute;
+    left: 48%;
+    top: 10%;
+}
+
+.navbar .dropdown-item {
+    color: black;
+
+}
+
+.navbar .dropdown-item {
+    transition: 300ms;
+}
+
+.navbar .dropdown-item:focus {
+    transition: 300ms;
+
+}
+
+.section1 {
+    height: 300px;
+    width: 600px;
+    border-color: rgba(0, 0, 0, 0);
+    border-style: inset;
+    margin: 70px 0 0 40px;
+    background-color: rgba(197, 243, 245, 0.795);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.merkez {
+    width: 860px;
+    height: 550px;
+    border-style: inset;
+    position: relative;
+    margin: 60px auto 0 auto;
+    border-radius: 25px;
+    border-color: rgb(255, 255, 255);
+    border-width: 0;
+    background-color: rgba(255, 255, 255, 0.625);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article1 {
+    width: 420px;
+    height: 550px;
+    margin: 0 0 0 10px;
+    float: left;
+
+}
+
+.article2 {
+    width: 150px;
+    height: 550px;
+    padding-left: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.buton {
+    width: 80px;
+    height: 45px;
+    border-radius: 2px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 9px;
+    outline: none;
+    border-color: rgba(0, 0, 0, 0.374);
+    background-color: #ffffffcc;
+    font-style: italic;
+    margin-left: 80px;
+}
+
+.buton:hover {
+    border-color: rgb(255, 179, 0);
+    border-width: 2px;
+    transition: 550ms;
+}
+
+.article1 .Baslik {
+    font-size: 20px;
+    text-indent: 20px;
+    font-style: oblique;
+    margin-top: 20px;
+}
+
+.article1 .icerik1 {
+    font-size: large;
+    margin: 40px 0 0 30px;
+}
+
+.icon1 {
+    height: 50px;
+    width: 50px;
+    display: inline;
+    margin-left: 68px;
+}
+
+.icon1:hover {
+    background-color: rgba(105, 105, 105, 0.423);
+    border-radius: 10px;
+    transition: 200ms;
+    ;
+}
+
+.icerik2 {
+    margin: 200px 0 0 20px;
+    display: block;
+    align-items: center;
+}
+
+.icerik2 .Baslik {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+.boşluk2 {
+    margin-top: 70px;
+}
+
+.txt1 {
+    width: 240px;
+    height: 25px;
+    margin-bottom: 20px;
+    background-color: #ffffffbb;
+    outline: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+
+}
+
+.txt1:focus {
+    border-color: rgb(255, 179, 0);
+    border-width: 2px;
+    transition: 550ms;
+}
+
+.txt2 {
+    width: 240px;
+    height: 25px;
+    margin-bottom: 20px;
+    background-color: #ffffffbb;
+    outline: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+
+}
+
+.txt2:focus {
+    border-color: rgb(255, 179, 0);
+    border-width: 2px;
+    transition: 550ms;
+}
+
+.txt3 {
+    width: 240px;
+    height: 25px;
+    margin-bottom: 20px;
+    background-color: #ffffffbb;
+    outline: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+
+}
+
+.txt3:focus {
+    border-color: rgb(255, 179, 0);
+    border-width: 2px;
+    transition: 550ms;
+}
+
+.txt4 {
+    width: 240px;
+    height: 100px;
+    text-align: start;
+    margin-bottom: 20px;
+    background-color: #ffffffbb;
+    outline: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+
+}
+
+.txt4:focus {
+    border-color: rgb(255, 179, 0);
+    border-width: 2px;
+    transition: 550ms;
+}
+
+
+.alert.alert-danger {
+    width: 240px;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.alert.alert-success {
+    width: 240px;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+}

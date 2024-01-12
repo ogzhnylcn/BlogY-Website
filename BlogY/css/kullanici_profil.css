@@ -1,0 +1,202 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+.body {
+    background-image: url("https://images.wallpaperscraft.com/image/single/mountains_grass_light_100805_1280x720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar {
+    background-color: #555555c9;
+    position: fixed;
+}
+
+.navbar a {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+
+.logo {
+    width: 55px;
+    height: 40px;
+    margin-right: 6px;
+}
+
+.logo2 {
+    width: 155px;
+    height: auto;
+    position: absolute;
+    left: 48%;
+    top: 10%;
+}
+
+.navbar .dropdown-item {
+    color: black;
+}
+
+.icerik {
+    width: 1050px;
+    height: 550px;
+    border-style: inset;
+    position: relative;
+    margin: 65px auto 0 auto;
+    border-radius: 25px;
+    background-color: rgba(240, 248, 255, 0);
+    border-width: 0;
+    display: flex;
+    flex-direction: row;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.solkisim {
+    display: flex;
+    flex-direction: column;
+    /* border-top: 3px solid; */
+    /* border-bottom: 3px solid; */
+    border-radius: 25px;
+    height: 550px;
+    width: 270px;
+    background: #cbe4ea;
+    box-shadow: 1px 1px 10px 10px #6868685d;
+    border-color: #000000;
+}
+
+.sagkisim {
+    width: 770px;
+    height: 550px;
+    margin: 0 0 0 10px;
+    border-radius: 25px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    overflow: scroll;
+    background-color: rgb(240 248 255 / 88%);
+}
+
+
+.profil_foto {
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    border-style: double;
+    border-color: burlywood;
+    display: block;
+    margin: 30px auto 30px auto;
+}
+
+label {
+    height: 30px;
+    width: 180px;
+    margin: 0 40px 40px 50px;
+    display: block;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    outline-color: rgb(129, 129, 129);
+    background-color: rgba(102, 0, 102, 0.106);
+    text-align: center;
+    padding-top: 3px;
+}
+
+h4 {
+    font-family: cursive;
+}
+
+.article {
+    height: 340px;
+    width: 250px;
+    margin: 24px 0 0 3.3px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 17px;
+    transition: 400ms;
+    color: rgb(0, 0, 0);
+    float: left;
+    position: relative;
+}
+
+.article:hover {
+    background-color: rgba(200, 200, 200, 0.586);
+    transition: 400ms;
+}
+
+.article .foto {
+    height: 180px;
+    width: auto;
+    background-color: blue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: 1s;
+    margin-bottom: 9px;
+}
+
+.article .yazar-tarih {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article .yazar-tarih .yazar {
+    width: auto;
+    border-right: 1px solid rgb(113, 113, 113);
+    border-width: 1px;
+    padding-right: 10px;
+}
+
+.article .yazar-tarih .tarih {
+    width: auto;
+    position: relative;
+    top: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.article .yazar-tarih .kategori {
+    width: auto;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.article .ozet {
+    font-size: 15px;
+    margin: 9px 0 0 5px;
+    height: 70px;
+    /* İlk 3 satır için belirlediğimiz yükseklik */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.minibaslik {
+    margin-top: 130px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(200, 200, 200, 0.316);
+    transition: 400ms;
+    text-align: center;
+    width: 250px;
+    min-height: 43px;
+}
+
+.minibaslik:hover {
+    background-color: rgba(69, 69, 69, 0.535);
+    transition: 400ms;
+}
+
+::-webkit-scrollbar {
+    background: #95a5a600;
+    margin-right: 5px;
+    width: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #daf1f3;
+    border-radius: 10px;
+}

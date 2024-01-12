@@ -1,0 +1,142 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+.body {
+    background-image: url("https://images.wallpaperscraft.com/image/single/mountains_grass_light_100805_1280x720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+
+
+}
+
+.navbar {
+    background-color: #555555c9;
+    position: fixed;
+}
+
+.navbar a {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.logo {
+    width: 55x;
+    height: 40px;
+    margin-right: 6px;
+}
+
+.logo2 {
+    width: 155px;
+    height: auto;
+    position: absolute;
+    left: 48%;
+    top: 10%;
+}
+
+.navbar .dropdown-item {
+    color: black;
+}
+.icerik {
+    width: 1000px;
+    height: 550px;
+    border-style: inset;
+    position: relative;
+    margin: 50px auto 0 auto;
+    border-radius: 25px;
+    border-color: rgb(255, 255, 255);
+    border-width: 0;
+    background-color: rgba(255, 255, 255, 0.82);
+    display: flex;
+
+}
+
+
+.icerik .Başlık {
+    height: 30px;
+    width: 180px;
+    margin: 40px 40px 40px 50px;
+    display: block;
+    border-color: rgba(232, 14, 14, 0);
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    outline-color: rgb(129, 129, 129);
+}
+
+.icerik:focus {
+    border-color: rgb(255, 179, 0);
+    border-width: 2px;
+    transition: 550ms;
+
+
+}
+
+.icerik .yazi {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+
+
+}
+
+.icerik .kategori {
+    height: 30px;
+    width: 180px;
+    margin: 40px 40px 40px 50px;
+    display: block;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    outline-color: rgb(129, 129, 129);
+
+
+}
+
+.icerik .metin {
+    height: 350px;
+    width: 600px;
+    margin: 50px 50px 0 50px;
+    display: block;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    outline-color: rgb(129, 129, 129);
+
+
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons .buton {
+    width: 130px;
+    height: 45px;
+    border-radius: 2px;
+    font-size: 18px;
+    align-items: center;
+    margin-top: 25px;
+    outline: none;
+    border-color: rgba(0, 0, 0, 0.374);
+    background-color: #ffffffcc;
+    font-style: italic;
+    margin-left: 17px;
+    margin-bottom: 10px;
+
+}
+
+.buton:hover {
+    border-color: rgb(255, 179, 0);
+    border-width: 2px;
+    transition: 550ms;
+}
+
+.form-control {
+    margin-left: 17px;
+}

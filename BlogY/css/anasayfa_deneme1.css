@@ -1,0 +1,454 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+.body {
+    width: auto;
+    height: auto;
+    background-image: url("https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlnaHQlMjBza3l8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.navbar {
+    background-color: #555555c9;
+    position: fixed !important;
+    z-index: 100;
+    width: 100%;
+    margin-top: -70;
+}
+
+.navbar a {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.logo {
+    width: 55x;
+    height: 40px;
+    margin-right: 6px;
+}
+
+.logo2 {
+    width: 155px;
+    height: auto;
+    position: absolute;
+    left: 48%;
+    top: 10%;
+}
+
+.navbar .dropdown-item {
+    color: black;
+}
+
+
+.anafoto {
+    position: relative;
+    width: 750px;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 20px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.solmerkez {
+    width: 635px;
+}
+
+
+
+.sablon {
+    position: relative;
+    height: 1700px;
+    width: 960px;
+    box-shadow: 1px 1px 10px 10px #6868685d;
+    margin: 70px auto 50px auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+
+.icsablon {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 615px;
+    height: 332px;
+
+}
+
+.merkez1 {
+    width: 615px;
+    height: 332px;
+
+}
+
+.merkez2 {
+    width: 400px;
+    height: 1000px;
+    float: right;
+    margin-left: 15px;
+    background-color: aliceblue;
+}
+
+.d-block {
+    width: 615px;
+    height: 332px;
+
+}
+
+.article {
+    height: auto;
+    width: 615px;
+    margin-top: 20px;
+    transition: 400ms;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+
+.article:hover {
+    background-color: rgba(200, 200, 200, 0.586);
+    transition: 400ms;
+}
+
+
+.article .baslik {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px 0 0 5px;
+
+}
+
+
+.yayinci {
+    height: 10px;
+    width: 615px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.yazar {
+    display: flex;
+    margin-left: 10px;
+    padding-top: 4px;
+    font-weight: bold;
+    border-right: 1px solid rgb(0, 0, 0);
+    padding-right: 10px;
+    height: 20px;
+
+}
+
+
+
+.yazar a {
+    text-decoration: none;
+    color: #4a8497;
+
+}
+
+.yayinci .icon {
+    height: 15px;
+    width: 15px;
+}
+
+.kull_foto {
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+
+.bosluk {
+    height: 10px;
+}
+
+.hr {
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .25;
+    margin: 15px 0 5 0;
+}
+
+
+
+.tarih {
+    display: flex;
+    margin-left: 10px;
+    padding-top: 4px;
+    border-right: 1px solid rgb(0, 0, 0);
+    padding-right: 10px;
+    height: 20px;
+
+}
+
+
+.kategori {
+    display: flex;
+    margin-left: 10px;
+    padding-top: 4px;
+    height: 20px;
+
+}
+
+
+
+
+.veri {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.veri .fotograf {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+
+
+.veri .yazi {
+    height: 100px;
+    width: 370px;
+    margin-top: 8px;
+    line-height: 25px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-pack: justify;
+}
+
+.articles-container .btn-primary {
+    width: 130px !important;
+    margin-top: 15 !important;
+    margin-left: 240 !important;
+    height: 30 !important;
+}
+
+
+
+.articles-container {
+    margin-bottom: 20px;
+}
+
+
+
+.nav {
+    display: flex !important;
+    list-style: none !important;
+    justify-content: center !important;
+    margin-top: 860 !important;
+
+}
+
+.iletisim {
+    width: 310px;
+    height: 160px;
+    margin: 35px 0 0 5px;
+    border-radius: 10px;
+    border: 1.5px solid;
+    border-color: #979797cc;
+    background-color: #bdbdbd6e;
+}
+
+
+.ustkisim {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30 0 10 15;
+
+
+}
+
+
+
+.iletisim .share {
+    width: 18px;
+    height: 18px;
+}
+
+.iconlar {
+    margin: 20 0 0 75;
+
+}
+
+.iconlar .twit {
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.iconlar .you {
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.iconlar .link {
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.iconlar .insta {
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.iletisim .baslik {
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    width: 250;
+    padding-left: 15px;
+    z-index: 10;
+    height: 33px;
+
+}
+
+.siyah {
+    position: absolute;
+    background-color: black;
+    height: 33px;
+    margin-left: 210;
+    width: 50;
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(-20deg);
+}
+
+
+
+
+.reklamci {
+    width: 310px;
+    height: 365px;
+    margin: 20px 0 0 5px;
+    background-color: #bdbdbd6e;
+    border-radius: 10px;
+    padding-top: 1px;
+    border: 1.5px solid;
+    border-color: #979797cc;
+}
+
+.reklamci .btn-primary {
+    width: 200;
+    height: 35;
+    margin: 57px 0 0 55;
+    font-family: cursive;
+}
+
+.reklamci .buton {
+    background-color: #fffbf1;
+    height: 147px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+
+
+.rekbaslik {
+    text-align: center;
+    font-size: 2.5rem;
+    width: 300px;
+    margin: 30px auto auto auto;
+
+}
+
+.rekyazi {
+    text-align: center;
+    margin: 20px 0 10px 0;
+    font-size: larger;
+    color: #696969a3;
+}
+
+.btn-primary {
+    width: 240;
+    margin-left: 35;
+    height: 40;
+
+}
+
+.kayit {
+    width: 310px;
+    height: 400px;
+    background-color: #bdbdbd6e;
+    border-radius: 10px;
+    border: 1.5px solid;
+    border-color: #979797cc;
+    margin: 20px 0 0 5px;
+}
+
+.fototav {
+    background-color: #fffbf1;
+    width: 308.5px;
+    height: 180px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+
+.tavfoto {
+    width: 210px;
+    height: 170px;
+    margin: 10px 50px 0 50px;
+}
+
+
+.kayit .baslik {
+    text-align: center;
+    margin-top: 15px;
+    font-family: cursive;
+}
+
+.kayit .yazi {
+    text-align: center;
+    width: 300px;
+    font-family: monospace;
+}
+
+.kayit input {
+    width: 280px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: #ffe4c400;
+}
+
+.kayit .buton {
+    width: 110px;
+    height: 35px;
+    border-radius: 2px;
+    font-size: 18px;
+    align-items: center;
+    outline: none;
+    border-color: rgba(0, 0, 0, 0.374);
+    background-color: #ffffffcc;
+    font-style: italic;
+    margin: 16px 100px 0 100px;
+}
+
+.kayit .buton:hover {
+    border-color: rgb(255, 179, 0);
+    border-width: 2px;
+    transition: 550ms;
+}
