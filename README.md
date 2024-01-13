@@ -1,8 +1,24 @@
 # BlogY-Website
 
-Bu, BlogY isimli web sitesinin README dosyasıdır. BlogY, kullanıcıların blog yazıları paylaşmalarını, kendi profillerini yönetmelerini ve etkileşimde bulunmalarını sağlayan bir web platformudur.
+BlogY, kullanıcıların blog yazıları paylaşmalarını, kendi profillerini yönetmelerini ve etkileşimde bulunmalarını sağlayan bir web platformudur.
 
-### Önizleme
+## Özellikler
+
+- Giriş yapma ve kayıt olma ekranları.
+- Kullanıcı profillerini düzenleme ve blog yazıları paylaşma.
+- İletişim sayfası aracılığıyla kullanıcılar ve admin arasında iletişim.
+- Kategori seçenekleri ve blog içeriklerini görüntüleme.
+- Profil düzenleme ve şifre değiştirme seçenekleri.
+- Yönetici paneli ile kullanıcıları ve blogları yönetme yetkisi.
+- Yönetici paneli ile kategori ekleme ve kategorileri yönetme yetkisi.
+- Sayfa yüklenme aşamasında yükleme ekranı.
+- Giriş yapmamış olan kullanıcıların blog yazma ve profil sayfalarına erişim engeli.
+  
+
+
+
+
+## Önizleme
 
 
 ### GİRİŞ YAPMA
@@ -66,29 +82,6 @@ Bu, BlogY isimli web sitesinin README dosyasıdır. BlogY, kullanıcıların blo
 
 ### BLOGLARIN LİSTESİ (YÖNETİCİ)
 ![yönetim3](https://github.com/ogzhnylcn/BlogY-Website/assets/96052998/9cd78b9f-1df2-4191-bc0a-77956857df8b)
-
-## Özellikler
-
-- Giriş yapma ve kayıt olma ekranları.
-- Kullanıcı profillerini düzenleme ve blog yazıları paylaşma.
-- İletişim sayfası aracılığıyla kullanıcılar arasında iletişim.
-- Kategori seçenekleri ve blog içeriklerini görüntüleme.
-- Profil düzenleme ve şifre değiştirme seçenekleri.
-- Yönetici paneli ile kullanıcıları ve blogları yönetme yetkisi.
-
-## Kurulum
-
-Proje dosyalarını indirin ve aşağıdaki adımları izleyerek kurulumu gerçekleştirin.
-
-1. **Giriş Yapma Ekranı**
-   - Kullanıcılar, giriş yapma ekranı üzerinden hesaplarına erişebilirler.
-
-2. **Kayıt Olma Ekranı**
-   - İlk defa kullanıcılar, kayıt olma ekranı üzerinden yeni hesap oluşturabilirler.
-
-3. **Anasayfa**
-   - Tüm kullanıcılar, anasayfada en son blog yazılarını görebilirler.
-
 
 
 
